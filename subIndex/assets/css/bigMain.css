@@ -1,0 +1,91 @@
+@import url(font-awesome.min.css);
+@import url("https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600");
+
+/*
+	Snapshot by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+*/
+
+
+/* Reset */
+
+nav,
+#bigMain {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+nav,
+#bigMain {
+    display: block;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+
+/* Menu */
+
+#nav {
+    background: #0d1217!important;
+    z-index: 10002;
+    position: relative;
+    width: 4em;
+}
+
+#nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 1em;
+    left: 0;
+}
+
+#nav ul li {
+    padding: 0;
+    width: 3.75em;
+    text-align: Center;
+    margin-bottom: 1em;
+}
+
+#nav ul li a {
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+#nav ul li a:hover {
+    color: white;
+}
+
+#nav ul li a.active {
+    color: #19B5FE;
+}
+
+@media screen and (max-width: 736px) {
+    #nav ul li {
+        width: 3.4em;
+    }
+}
+
+#header .logo {
+    padding-top: 8rem!important;
+}
+
+body {
+    opacity: 1;
+    transition: 1s opacity;
+}
+
+body.fade-out {
+    opacity: 0;
+    transition: none;
+}
